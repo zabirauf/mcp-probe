@@ -23,7 +23,7 @@ Developing MCP servers can be challenging when you can't see what's happening un
 
 ```bash
 # macOS and Linux
-curl --proto '=https' --tlsv1.2 -LsSf https://github.com/zabirauf/mcp-trace/releases/download/v0.1.0/mcp-trace-installer.sh | sh
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/zabirauf/mcp-trace/releases/download/v0.2.0/mcp-trace-installer.sh | sh
 ```
 
 ### Option 2: Download Prebuilt Binaries

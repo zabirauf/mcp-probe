@@ -32,7 +32,7 @@
         commonArgs = {
           src = craneLib.cleanCargoSource (craneLib.path ./.);
           strictDeps = true;
-          version = "0.1.0";
+          version = "0.2.0";
           
           buildInputs = with pkgs; [
             # Add runtime dependencies if needed
