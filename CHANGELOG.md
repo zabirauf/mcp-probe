@@ -5,6 +5,25 @@ All notable changes to the MCP Proxy TUI project will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.0] - 2025-07-01
+
+### Added
+- **Nix packaging support**: Added Nix flake configuration for reproducible builds across different platforms
+- **GitHub Pages deployment**: Automated deployment workflow for project landing page
+- **Project landing page**: Created index.html with project overview and documentation
+
+### Changed
+- **Project rename**: Renamed from `mcp-probe` to `mcp-trace` for better clarity
+- **UI improvements**: 
+  - Fixed tab visibility issues in the monitor interface
+  - Added context-aware help text that updates based on focused area
+  - Improved visual clarity of navigation modes and focus indicators
+- **Documentation updates**: Enhanced CLAUDE.md with clearer project guidelines
+
+### Fixed
+- **CI/CD**: Fixed GitHub Pages workflow to properly handle artifact uploads
+- **Nix CI**: Resolved formatting and clippy issues in Nix build process
+
 ## [0.1.0] - 2025-06-17
 
 ### Added
